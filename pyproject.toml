@@ -1,7 +1,6 @@
 [project]
-name = "" # TODO project.name is required
+name = "0" # TODO project.name is required
 version = "0"
-readme = "README.md" # optional. Property can be deleted
 dependencies = [
 
 ]
@@ -12,7 +11,7 @@ dev = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = [] # Optional. Add local py package here
+packages = ["src"] # TODO Add local py package here. But the list cannot be empty
 
 [build-system]
 requires = ["hatchling"]
