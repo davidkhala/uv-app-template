@@ -1,0 +1,21 @@
+[project]
+name = "" # TODO project.name is required
+version = "0"
+readme = "README.md" # optional. Property can be deleted
+dependencies = [
+
+]
+
+[dependency-groups]
+dev = [
+    "pytest"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = [] # Optional. Add local py package here
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
