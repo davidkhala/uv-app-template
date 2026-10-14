@@ -10,6 +10,9 @@ dev = [
     "pytest"
 ]
 
+[tool.pytest.ini_options]
+addopts = "-s -v"
+
 [tool.hatch.build.targets.wheel]
 packages = ["src"] # TODO Add local py package here. But the list cannot be empty
 
